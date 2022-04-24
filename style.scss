@@ -379,6 +379,8 @@ a {
 
 .photo-container {
     margin: 103px 0 96px 0;
+    overflow: hidden;
+    text-align: center;
 }
 
 .photo-box {
@@ -567,6 +569,7 @@ a {
 
 .purchase-box {
     height: 600px;
+    overflow: hidden;
 }
 
 .purchase-title {
@@ -934,6 +937,11 @@ a {
         color: $color-teal; 
     }
 
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+
     .navigation {
         height: 45px;
     }
@@ -1048,7 +1056,7 @@ a {
     }
 
     .story {
-        height: 1092px;
+        height: 1150px;
     }
 
     .story-title {
@@ -1093,10 +1101,7 @@ a {
     .photo {
         width: 273px;
         height: 273px;
-    }
-
-    .photo-bottom {
-        margin: 0;
+        margin: 0 0 20px 0;
     }
 
     .flower-gallery {
