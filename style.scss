@@ -380,7 +380,7 @@ a {
 .photo-container {
     margin: 103px 0 96px 0;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
 }
 
 .photo-box {
@@ -388,9 +388,10 @@ a {
 }
 
 .photo {
-    width: 398px;
-    height: 398px;
+    width: 400px;
+    height: 400px;
     position: relative;
+    margin: 0 0 20px 0;
 }
 
 .text-top {
@@ -399,10 +400,6 @@ a {
 
 .text-bottom {
     padding: 113px 30px 40px 27px;
-}
-
-.photo-bottom {
-    margin-top: 7px;
 }
 
 .inner-rwd {
@@ -446,6 +443,7 @@ a {
 	
 	&__thumb {
 		position: relative;
+        margin: 10px;
 	}
 	
 	&__image {
@@ -456,7 +454,7 @@ a {
 		transition: .3s;
 		
 		&:hover {
-			transform: scale(1.1);
+			transform: scale(1.05);
 		}
 	}
 
@@ -470,7 +468,7 @@ a {
 }
 
 .flower-logo {
-    margin-top: 115px;
+    margin-top: 145px;
 }
 
 /* FLOWERS */
@@ -675,7 +673,9 @@ a {
     }
 
     i:hover {
-        background: $color-teal; 
+        background: $color-teal;
+        transform: scale(1.1);
+        
     }
 }
 
@@ -792,8 +792,8 @@ a {
     }
 
     .photo {
-        width: 293px;
-        height: 293px;
+        width: 280px;
+        height: 280px;
     }
 
     .text-top {
@@ -928,8 +928,6 @@ a {
     }
 
     p {
-        font-size: 14px;
-        line-height: 16px;
         margin: 15px 0 16px 0;
     }
 
@@ -986,7 +984,7 @@ a {
 
     .drawer-hamburger {
         position: inherit;
-        padding-top: 9px;
+        padding: 10px 10px 0 0;
     }
 
     .drawer-hamburger-icon {
@@ -1056,7 +1054,7 @@ a {
     }
 
     .story {
-        height: 1150px;
+        height: 1200px;
     }
 
     .story-title {
@@ -1074,6 +1072,7 @@ a {
 
     .photo-container {
         margin: 5px 0 35px 0;
+        text-align: center;
     }
 
     .inner-none {
@@ -1099,9 +1098,8 @@ a {
     }
 
     .photo {
-        width: 273px;
-        height: 273px;
-        margin: 0 0 20px 0;
+        width: 260px;
+        height: 260px;
     }
 
     .flower-gallery {
@@ -1109,7 +1107,7 @@ a {
     }
 
     .flower-logo {
-        margin-top: 95px;
+        margin-top: 125px;
     }
 
     .gallery {        
@@ -1145,7 +1143,7 @@ a {
     }
     
     .flowers {
-        height: 730px;
+        height: 820px;
     }
 
     .flowers-text {
@@ -1183,11 +1181,11 @@ a {
     }
 
     .purchase {
-        height: 630px;
+        height: 680px;
     }
 
     .purchase-box {
-        height: 626px;
+        height: 650px;
     }
 
     .purchase-img {
